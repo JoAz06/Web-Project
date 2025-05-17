@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Quiz 2</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      .xdebug-error, .xe-warning{
+        display:none;
+      }
+    </style>
+</head>
+<body>
+    <div class="layout">
+    <header>
+        <div class="logo">
+            <a href="quiz2.html">Quiz 2.</a>
+        </div>
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="cv-switcher">
+                    <a href="cv-anthony.html">CV</a>
+                    <div class="cv-dropdown">
+                        <a href="cv-anthony.html">
+                            <span class="name">Anthony Abdo</span>
+                            <span class="role">Web Developer</span>
+                        </a>
+                        <a href="cv-joseph.html">
+                            <span class="name">Joseph Azzi</span>
+                            <span class="role">Private Security Contractor</span>
+                        </a>
+                        <a href="cv-edward.html">
+                            <span class="name">Edward Khazzoum</span>
+                            <span class="role">Cybersecurity Expert</span>
+                        </a>
+                    </div>
+                </li>
+                <li><a href="research.html">Research</a></li>
+                <li class="schedule-switcher">
+                    <a href="schedule-anthony.html">Schedule</a>
+                    <div class="schedule-dropdown">
+                        <a href="schedule-anthony.html">
+                            <span class="name">Anthony's Schedule</span>
+                            <span class="role">Computer Science</span>
+                        </a>
+                        <a href="schedule-joseph.html">
+                            <span class="name">Joseph's Schedule</span>
+                            <span class="role">Security Operations</span>
+                        </a>
+                        <a href="schedule-edward.html">
+                            <span class="name">Edward's Schedule</span>
+                            <span class="role">Software Engineering</span>
+                        </a>
+                    </div>
+                </li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="quiz2.html" class="active">Quiz 2</a></li>
+                <li><a href="arabic.html">Arabic</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="wrapper" class="quiz">
+    <form method="POST" action="process_quiz2.php">
+    <div class="question" id="question1">
+        <h3>1. What is included in the physical systems of Internet infrastructure?
+        </h3>
+            <input type="radio" id="qu1An1" name="qu1" value="1">
+            <label for="qu1An1">A&#41; Smartphones</label><br>
+            <input type="radio" id="qu1An2" name="qu1" value="2">
+            <label for="qu1An2">B&#41; Networking cables, cellular towers, and data centers</label><br>
+            <input type="radio" id="qu1An3" name="qu1" value="3">
+            <label for="qu1An3">C&#41; Websites and blogs</label><br>
+            <input type="radio" id="qu1An4" name="qu1" value="4">
+            <label for="qu1An4">D&#41; Social media platforms</label><br>
+    </div>
+    <div class="question" id="question2">
+        <h3>2. What is the primary function of internet exchange points (IXPs)?</h3>
+            <input type="radio" id="qu2An1" name="qu2" value="1">
+            <label for="qu2An1">A&#41; They store and forward data between different networks</label><br>
+            <input type="radio" id="qu2An2" name="qu2" value="2">
+            <label for="qu2An2">B&#41; They provide wireless communication for mobile devices</label><br>
+            <input type="radio" id="qu2An3" name="qu2" value="3">
+            <label for="qu2An3">C&#41; They encrypt sensitive information</label><br>
+            <input type="radio" id="qu2An4" name="qu2" value="4">
+            <label for="qu2An4">D&#41; They monitor internet traffic for security</label><br>
+    </div>
+    <div class="question" id="question3">
+        <h3>3. Which system is responsible for packet routing and forwarding in the Internet infrastructure?</h3>
+            <input type="radio" id="qu3An1" name="qu3" value="1">
+            <label for="qu3An1">A&#41; Data centers</label><br>
+            <input type="radio" id="qu3An2" name="qu3" value="2">
+            <label for="qu3An2">B&#41; Naming and numbering systems</label><br>
+            <input type="radio" id="qu3An3" name="qu3" value="3">
+            <label for="qu3An3">C&#41; Security and identity protection</label><br>
+            <input type="radio" id="qu3An4" name="qu3" value="4">
+            <label for="qu3An4">D&#41; Packet-switched networks</label><br>
+    </div>
+    <div class="question" id="question4">
+        <h3>4. In which year did Tim Berners-Lee and his team create the World Wide Web (WWW)?</h3>
+            <input type="radio" id="qu4An1" name="qu4" value="1">
+            <label for="qu4An1">A&#41; 1985</label><br>
+            <input type="radio" id="qu4An2" name="qu4" value="2">
+            <label for="qu4An2">B&#41; 1989</label><br>
+            <input type="radio" id="qu4An3" name="qu4" value="3">
+            <label for="qu4An3">C&#41; 1992</label><br>
+            <input type="radio" id="qu4An4" name="qu4" value="4">
+            <label for="qu4An4">D&#41; 1995</label><br>
+    </div>
+    <div class="question" id="question5">
+        <h3>5. Which protocol is used by the World Wide Web to transfer data?</h3>
+            <input type="radio" id="qu5An1" name="qu5" value="1">
+            <label for="qu5An1">A&#41; FTP</label><br>
+            <input type="radio" id="qu5An2" name="qu5" value="2">
+            <label for="qu5An2">B&#41; SMTP</label><br>
+            <input type="radio" id="qu5An3" name="qu5" value="3">
+            <label for="qu5An3">C&#41; HTTP</label><br>
+            <input type="radio" id="qu5An4" name="qu5" value="4">
+            <label for="qu5An4">D&#41; SNMP</label><br>
+    </div>
+    <div class="question" id="question6">
+        <h3>6. What was the first web browser developed for public use?</h3>
+            <input type="radio" id="qu6An1" name="qu6" value="1">
+            <label for="qu6An1">A&#41; Netscape Navigator</label><br>
+            <input type="radio" id="qu6An2" name="qu6" value="2">
+            <label for="qu6An2">B&#41; Internet Explorer</label><br>
+            <input type="radio" id="qu6An3" name="qu6" value="3">
+            <label for="qu6An3">C&#41; Mosaic</label><br>
+            <input type="radio" id="qu6An4" name="qu6" value="4">
+            <label for="qu6An4">D&#41; Safari</label><br>
+    </div>
+    <div class="question" id="question7">
+        <h3>7. What year was the browser Netscape Navigator first released?</h3>
+            <input type="radio" id="qu7An1" name="qu7" value="1">
+            <label for="qu7An1">A&#41; 1992</label><br>
+            <input type="radio" id="qu7An2" name="qu7" value="2">
+            <label for="qu7An2">B&#41; 1993</label><br>
+            <input type="radio" id="qu7An3" name="qu7" value="3">
+            <label for="qu7An3">C&#41; 1994</label><br>
+            <input type="radio" id="qu7An4" name="qu7" value="4">
+            <label for="qu7An4">D&#41; 1995</label><br>
+    </div>
+    <div class="question" id="question8">
+        <h3>8. Which of the following browsers was developed by Marc Andreessen's team?</h3>
+            <input type="radio" id="qu8An1" name="qu8" value="1">
+            <label for="qu8An1">A&#41; Safari</label><br>
+            <input type="radio" id="qu8An2" name="qu8" value="2">
+            <label for="qu8An2">B&#41; Internet Explorer</label><br>
+            <input type="radio" id="qu8An3" name="qu8" value="3">
+            <label for="qu8An3">C&#41; Mosaic</label><br>
+            <input type="radio" id="qu8An4" name="qu8" value="4">
+            <label for="qu8An4">D&#41; Opera</label><br>
+    </div>
+    <div class="question" id="question9">
+        <h3>9. What was the main reason behind the success of the first web browsers like Mosaic and Netscape?</h3>
+            <input type="radio" id="qu9An1" name="qu9" value="1">
+            <label for="qu9An1">A&#41; They were text-based</label><br>
+            <input type="radio" id="qu9An2" name="qu9" value="2">
+            <label for="qu9An2">B&#41; They allowed easy navigation with clickable links</label><br>
+            <input type="radio" id="qu9An3" name="qu9" value="3">
+            <label for="qu9An3">C&#41; They required high-speed internet connections</label><br>
+            <input type="radio" id="qu9An4" name="qu9" value="4">
+            <label for="qu9An4">D&#41; They were only available on UNIX systems</label><br>
+    </div>
+    <div class="question" id="question10">
+        <h3>10. What significant feature was introduced by Apple's Safari 2.0 in 2005?</h3>
+            <input type="radio" id="qu10An1" name="qu10" value="1">
+            <label for="qu10An1">A&#41; Pop-up blocker</label><br>
+            <input type="radio" id="qu10An2" name="qu10" value="2">
+            <label for="qu10An2">B&#41; Private Browsing</label><br>
+            <input type="radio" id="qu10An3" name="qu10" value="3">
+            <label for="qu10An3">C&#41; Video streaming support</label><br>
+            <input type="radio" id="qu10An4" name="qu10" value="4">
+            <label for="qu10An4">D&#41; Tabbed browsing</label><br>
+    </div>
+    <div class="question" id="question11">
+        <h3>11. Which network was developed in the 1960s and is considered a precursor to the modern Internet?</h3>
+            <input type="radio" id="qu11An1" name="qu11" value="1">
+            <label for="qu11An1">A&#41; ARPANET</label><br>
+            <input type="radio" id="qu11An2" name="qu11" value="2">
+            <label for="qu11An2">B&#41; TCP/IP</label><br>
+            <input type="radio" id="qu11An3" name="qu11" value="3">
+            <label for="qu11An3">C&#41; Ethernet</label><br>
+            <input type="radio" id="qu11An4" name="qu11" value="4">
+            <label for="qu11An4">D&#41; Wi-Fi</label><br>
+    </div>
+    <div class="question" id="question12">
+        <h3>12. What event in the 1990s significantly fueled the growth of the World Wide Web?</h3>
+            <input type="radio" id="qu12An1" name="qu12" value="1">
+            <label for="qu12An1">A&#41; The introduction of mobile technology</label><br>
+            <input type="radio" id="qu12An2" name="qu12" value="2">
+            <label for="qu12An2">B&#41; The dot-com boom</label><br>
+            <input type="radio" id="qu12An3" name="qu12" value="3">
+            <label for="qu12An3">C&#41; The creation of the first email client</label><br>
+            <input type="radio" id="qu12An4" name="qu12" value="4">
+            <label for="qu12An4">D&#41; The development of the first search engine</label><br>
+    </div>
+    <div class="question" id="question13">
+        <h3>13. Which e-commerce companies emerged during the dot-com boom?</h3>
+            <input type="radio" id="qu13An1" name="qu13" value="1">
+            <label for="qu13An1">A&#41; Facebook and Twitter</label><br>
+            <input type="radio" id="qu13An2" name="qu13" value="2">
+            <label for="qu13An2">B&#41; Amazon and eBay</label><br>
+            <input type="radio" id="qu13An3" name="qu13" value="3">
+            <label for="qu13An3">C&#41; Microsoft and Google</label><br>
+            <input type="radio" id="qu13An4" name="qu13" value="4">
+            <label for="qu13An4">D&#41; Apple and IBM</label><br>
+    </div>
+    <div class="question" id="question14">
+        <h3>14. In which year did Microsoft release Internet Explorer as part of Windows 95?</h3>
+            <input type="radio" id="qu14An1" name="qu14" value="1">
+            <label for="qu14An1">A&#41; 1993</label><br>
+            <input type="radio" id="qu14An2" name="qu14" value="2">
+            <label for="qu14An2">B&#41; 1994</label><br>
+            <input type="radio" id="qu14An3" name="qu14" value="3">
+            <label for="qu14An3">C&#41; 1995</label><br>
+            <input type="radio" id="qu14An4" name="qu14" value="4">
+            <label for="qu14An4">D&#41; 1996</label><br>
+    </div>
+    <div class="question" id="question15">
+        <h3>15. What was the first browser that introduced tabbed browsing?</h3>
+            <input type="radio" id="qu15An1" name="qu15" value="1">
+            <label for="qu15An1">A&#41; Netscape Navigator</label><br>
+            <input type="radio" id="qu15An2" name="qu15" value="2">
+            <label for="qu15An2">B&#41; Internet Explorer</label><br>
+            <input type="radio" id="qu15An3" name="qu15" value="3">
+            <label for="qu15An3">C&#41; Opera</label><br>
+            <input type="radio" id="qu15An4" name="qu15" value="4">
+            <label for="qu15An4">D&#41; Firefox</label><br>
+    </div>
+    <div class="question" id="question16">
+        <h3>16. Which of the following best describes Hypertext in the context of the World Wide Web?</h3>
+            <input type="radio" id="qu16An1" name="qu16" value="1">
+            <label for="qu16An1">A&#41; Text-based documents linked by URLs</label><br>
+            <input type="radio" id="qu16An2" name="qu16" value="2">
+            <label for="qu16An2">B&#41; Images, sounds, and animations linked together</label><br>
+            <input type="radio" id="qu16An3" name="qu16" value="3">
+            <label for="qu16An3">C&#41; Clickable words or phrases to navigate to other information</label><br>
+            <input type="radio" id="qu16An4" name="qu16" value="4">
+            <label for="qu16An4">D&#41; Data transmission using secure protocols</label><br>
+    </div>
+    <div class="question" id="question17">
+        <h3>17. What does HTTP stand for?</h3>
+            <input type="radio" id="qu17An1" name="qu17" value="1">
+            <label for="qu17An1">A&#41; HyperText Transfer Protocol</label><br>
+            <input type="radio" id="qu17An2" name="qu17" value="2">
+            <label for="qu17An2">B&#41; HyperText Transport Protocol</label><br>
+            <input type="radio" id="qu17An3" name="qu17" value="3">
+            <label for="qu17An3">C&#41; Hyperlink Transmission Protocol</label><br>
+            <input type="radio" id="qu17An4" name="qu17" value="4">
+            <label for="qu17An4">D&#41; HyperTerminal Transfer Protocol</label><br>
+    </div>
+    <div class="question" id="question18">
+        <h3>18. Which of the following is a key aspect of critical Internet infrastructure?</h3>
+            <input type="radio" id="qu18An1" name="qu18" value="1">
+            <label for="qu18An1">A&#41; Social media platforms</label><br>
+            <input type="radio" id="qu18An2" name="qu18" value="2">
+            <label for="qu18An2">B&#41; Naming and numbering systems</label><br>
+            <input type="radio" id="qu18An3" name="qu18" value="3">
+            <label for="qu18An3">C&#41; Video streaming services</label><br>
+            <input type="radio" id="qu18An4" name="qu18" value="4">
+            <label for="qu18An4">D&#41; Email clients</label><br>
+    </div>
+    <div class="question" id="question19">
+        <h3>19. Which year did Apple launch Safari as the default browser for Macintosh computers?</h3>
+            <input type="radio" id="qu19An1" name="qu19" value="1">
+            <label for="qu19An1">A&#41; 1998</label><br>
+            <input type="radio" id="qu19An2" name="qu19" value="2">
+            <label for="qu19An2">B&#41; 2000</label><br>
+            <input type="radio" id="qu19An3" name="qu19" value="3">
+            <label for="qu19An3">C&#41; 2003</label><br>
+            <input type="radio" id="qu19An4" name="qu19" value="4">
+            <label for="qu19An4">D&#41; 2005</label><br>
+    </div>
+    <div class="question" id="question20">
+        <h3>20. As of 2024, what percentage of Lebanon's population used the internet?</h3>
+            <input type="radio" id="qu20An1" name="qu20" value="1">
+            <label for="qu20An1">A&#41; 70.2%</label><br>
+            <input type="radio" id="qu20An2" name="qu20" value="2">
+            <label for="qu20An2">B&#41; 80.5%</label><br>
+            <input type="radio" id="qu20An3" name="qu20" value="3">
+            <label for="qu20An3">C&#41; 85.6%</label><br>
+            <input type="radio" id="qu20An4" name="qu20" value="4">
+            <label for="qu20An4">D&#41; 90.1%</label><br>
+    </div>
+    <div id="submit">
+        <input type="submit" value="Submit Quiz" id="submit-btn" name="submit">
+    </div>
+    </form>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <p class="footer-tech">© 2024 My Website</p>
+    </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html> 

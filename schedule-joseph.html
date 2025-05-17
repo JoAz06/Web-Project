@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academic course schedule and commitments">
+    <meta name="theme-color" content="#2563eb">
+    <title>Schedule - My Professional Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="layout">
+        <button class="sidebar-toggle" id="sidebarToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <header>
+            <div class="logo">
+                <a href="schedule-joseph.html">Schedule.</a>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="cv-switcher">
+                        <a href="cv-anthony.html">CV</a>
+                        <div class="cv-dropdown">
+                            <a href="cv-anthony.html">
+                                <span class="name">Anthony Abdo</span>
+                                <span class="role">Web Developer</span>
+                            </a>
+                            <a href="cv-joseph.html">
+                                <span class="name">Joseph Azzi</span>
+                                <span class="role">Private Security Contractor</span>
+                            </a>
+                            <a href="cv-edward.html">
+                                <span class="name">Edward Khazzoum</span>
+                                <span class="role">Cybersecurity Expert</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li><a href="research.html">Research</a></li>
+                    <li class="schedule-switcher">
+                        <a href="schedule-anthony.html">Schedule</a>
+                        <div class="schedule-dropdown">
+                            <a href="schedule-anthony.html">
+                                <span class="name">Anthony's Schedule</span>
+                                <span class="role">Computer Science</span>
+                            </a>
+                            <a href="schedule-joseph.html">
+                                <span class="name">Joseph's Schedule</span>
+                                <span class="role">Security Operations</span>
+                            </a>
+                            <a href="schedule-edward.html">
+                                <span class="name">Edward's Schedule</span>
+                                <span class="role">Software Engineering</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="quiz2.html">Quiz 2</a></li>
+                    <li><a href="arabic.html">Arabic</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-content">
+                <h3>Schedule Sections</h3>
+                <ul>
+                    <li><a href="#current"><i class="fas fa-calendar-week"></i> Current Schedule</a></li>
+                    <li><a href="#upcoming"><i class="fas fa-calendar-alt"></i> Upcoming Courses</a></li>
+                    <li><a href="#past"><i class="fas fa-history"></i> Past Courses</a></li>
+                    <li><a href="#deadlines"><i class="fas fa-clock"></i> Important Deadlines</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="main-content with-sidebar" id="mainContent">
+            <section id="current">
+                <h2><i class="fas fa-calendar-week"></i> Joseph's Schedule</h2>
+                <div class="schedule-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>Monday</th>
+                                <th>Tuesday</th>
+                                <th>Wednesday</th>
+                                <th>Thursday</th>
+                                <th>Friday</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>9:00 - 10:30</td>
+                                <td>Physical Security</td>
+                                <td>Combat Training</td>
+                                <td>Physical Security</td>
+                                <td>Combat Training</td>
+                                <td>Field Exercise</td>
+                            </tr>
+                            <tr>
+                                <td>11:00 - 12:30</td>
+                                <td>Tactical Operations</td>
+                                <td>Threat Assessment</td>
+                                <td>Tactical Operations</td>
+                                <td>Threat Assessment</td>
+                                <td>Range Practice</td>
+                            </tr>
+                            <tr>
+                                <td>14:00 - 15:30</td>
+                                <td>Close Protection</td>
+                                <td>Security Planning</td>
+                                <td>Close Protection</td>
+                                <td>Security Planning</td>
+                                <td>Team Drills</td>
+                            </tr>
+                            <tr>
+                                <td>16:00 - 17:30</td>
+                                <td>Surveillance</td>
+                                <td>Crisis Management</td>
+                                <td>Surveillance</td>
+                                <td>Crisis Management</td>
+                                <td>Scenario Training</td>
+                            </tr>
+                            <tr>
+                                <td>18:00 - 19:30</td>
+                                <td>Asset Protection</td>
+                                <td>Risk Management</td>
+                                <td>Asset Protection</td>
+                                <td>Risk Management</td>
+                                <td>Mission Planning</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="upcoming">
+                <h2><i class="fas fa-calendar-alt"></i> Upcoming Courses</h2>
+                <div class="course-grid">
+                    <div class="course-card">
+                        <h3>Advanced Security Operations</h3>
+                        <p>Next Semester</p>
+                        <ul>
+                            <li>Executive Protection</li>
+                            <li>Advanced Weapons Training</li>
+                            <li>Hostage Scenarios</li>
+                        </ul>
+                    </div>
+                    <div class="course-card">
+                        <h3>Security Management</h3>
+                        <p>Next Semester</p>
+                        <ul>
+                            <li>Team Leadership</li>
+                            <li>Security Protocols</li>
+                            <li>Crisis Response</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="past">
+                <h2><i class="fas fa-history"></i> Past Courses</h2>
+                <div class="course-grid">
+                    <div class="course-card">
+                        <h3>Introduction to Programming</h3>
+                        <p>Completed: Fall 2023</p>
+                        <ul>
+                            <li>Grade: A</li>
+                            <li>Projects: 5</li>
+                            <li>Final Exam: 95%</li>
+                        </ul>
+                    </div>
+                    <div class="course-card">
+                        <h3>Computer Networks</h3>
+                        <p>Completed: Spring 2023</p>
+                        <ul>
+                            <li>Grade: A-</li>
+                            <li>Projects: 4</li>
+                            <li>Final Exam: 88%</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="deadlines">
+                <h2><i class="fas fa-clock"></i> Important Deadlines</h2>
+                <div class="deadlines-list">
+                    <div class="deadline-item">
+                        <h3>Web Development Project</h3>
+                        <p>Due: March 15, 2024</p>
+                        <span class="deadline-status">Upcoming</span>
+                    </div>
+                    <div class="deadline-item">
+                        <h3>Research Paper Submission</h3>
+                        <p>Due: April 1, 2024</p>
+                        <span class="deadline-status">Upcoming</span>
+                    </div>
+                    <div class="deadline-item">
+                        <h3>Final Exams</h3>
+                        <p>Due: May 15-20, 2024</p>
+                        <span class="deadline-status">Important</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <div class="schedule-navigation">
+            <a href="schedule-edward.html" class="prev-schedule">
+                <i class="fas fa-arrow-left"></i>
+                <div>
+                    <span>Previous Schedule</span>
+                    <div>Edward's Schedule</div>
+                </div>
+            </a>
+            <a href="schedule-anthony.html" class="next-schedule">
+                <div>
+                    <span>Next Schedule</span>
+                    <div>Anthony's Schedule</div>
+                </div>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 My Professional Website. All rights reserved.</p>
+            <p class="footer-tech">Built with modern web technologies</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

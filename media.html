@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Media gallery and multimedia content" />
+    <meta name="theme-color" content="#2563eb" />
+    <title>Media Gallery - My Professional Website</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="layout">
+      <button class="sidebar-toggle" id="sidebarToggle">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <header>
+        <div class="logo">
+          <a href="media.html">Media.</a>
+        </div>
+        <button
+          class="mobile-menu-toggle"
+          id="mobileMenuToggle"
+          aria-label="Toggle menu"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="cv-switcher">
+              <a href="cv-anthony.html">CV</a>
+              <div class="cv-dropdown">
+                <a href="cv-anthony.html">
+                  <span class="name">Anthony Abdo</span>
+                  <span class="role">Web Developer</span>
+                </a>
+                <a href="cv-joseph.html">
+                  <span class="name">Joseph Azzi</span>
+                  <span class="role">Private Security Contractor</span>
+                </a>
+                <a href="cv-edward.html">
+                  <span class="name">Edward Khazzoum</span>
+                  <span class="role">Cybersecurity Expert</span>
+                </a>
+              </div>
+            </li>
+            <li><a href="research.html">Research</a></li>
+            <li class="schedule-switcher">
+              <a href="schedule-anthony.html">Schedule</a>
+              <div class="schedule-dropdown">
+                <a href="schedule-anthony.html">
+                  <span class="name">Anthony's Schedule</span>
+                  <span class="role">Computer Science</span>
+                </a>
+                <a href="schedule-joseph.html">
+                  <span class="name">Joseph's Schedule</span>
+                  <span class="role">Security Operations</span>
+                </a>
+                <a href="schedule-edward.html">
+                  <span class="name">Edward's Schedule</span>
+                  <span class="role">Software Engineering</span>
+                </a>
+              </div>
+            </li>
+            <li><a href="media.html" class="active">Media</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="quiz2.html">Quiz 2</a></li>
+            <li><a href="arabic.html">Arabic</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+          <h3>Media Categories</h3>
+          <ul>
+            <li>
+              <a href="#videos"><i class="fas fa-video"></i> Videos</a>
+            </li>
+            <li>
+              <a href="#photos"><i class="fas fa-images"></i> Photos</a>
+            </li>
+            <li>
+              <a href="#audio"><i class="fas fa-music"></i> Audio</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <main class="main-content with-sidebar" id="mainContent">
+        <section class="videos swiper">
+          <h2>Videos</h2>
+          <div class="card-wrapper">
+            <ul class="card-list swiper-wrapper">
+              <li class="card-item swiper-slide">
+                <a href="" class="card-link">
+                  <video
+                    src="css/images/meeting.mp4"
+                    class="card-video"
+                    alt="Meeting Video"
+                    controls
+                  ></video>
+                  <p class="badge">NEW</p>
+                  <h2 class="card-title">Changes in previous meeting.</h2>
+                </a>
+              </li>
+              <li class="card-item swiper-slide">
+                <a href="" class="card-link">
+                  <video
+                    src="css/images/test-coding.mp4"
+                    class="card-video"
+                    alt="Testing Video"
+                    controls
+                  ></video>
+                  <p class="badge">NEW</p>
+                  <h2 class="card-title">Ensuring code is bug-free!</h2>
+                </a>
+              </li>
+              <li class="card-item swiper-slide">
+                <a href="" class="card-link">
+                  <video
+                    src="css/images/typing.mp4"
+                    class="card-video"
+                    alt="Typing Code Video"
+                    controls
+                  ></video>
+                  <p class="badge">NEW</p>
+                  <h2 class="card-title">Our new moto!</h2>
+                </a>
+              </li>
+              <li class="card-item swiper-slide">
+                <a href="" class="card-link">
+                  <img
+                    src="css/images/ms.gif"
+                    class="card-video"
+                    alt="Coding Space GIF"
+                  />
+                  <p class="badge">NEW</p>
+                  <h2 class="card-title">Microsoft certified!</h2>
+                </a>
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </section>
+
+        <section id="photos" class="photos swiper">
+          <h2>Images</h2>
+          <div class="card-wrapper">
+            <ul class="card-list swiper-wrapper">
+              <li class="card-item swiper-slide">
+                <a href="" class="card-link">
+                  <img src="css/images/coder.jpg" alt="" class="card-video" />
+                  <p class="badge">NEW</p>
+                  <h2 class="card-title">Upcoming features</h2>
+                </a>
+              </li>
+              <li class="card-item swiper-slide">
+                <a href="" class="card-link">
+                  <img src="css/images/meeting.jpg" alt="" class="card-video" />
+                  <p class="badge">NEW</p>
+                  <h2 class="card-title">Working remotely!</h2>
+                </a>
+              </li>
+              <li class="card-item swiper-slide">
+                <a href="" class="card-link">
+                  <img src="css/images/new.jpeg" alt="" class="card-video" />
+                  <p class="badge">NEW</p>
+                  <h2 class="card-title">New updates soon!</h2>
+                </a>
+              </li>
+              <li class="card-item swiper-slide">
+                <a href="" class="card-link">
+                  <img
+                    src="css/images/meeting.jpeg"
+                    alt=""
+                    class="card-video"
+                  />
+                  <p class="badge">NEW</p>
+                  <h2 class="card-title">Most previous meeting.</h2>
+                </a>
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </section>
+
+        <section id="audio">
+          <h2><i class="fas fa-music"></i> Audio Content</h2>
+          <div class="media-grid">
+            <div class="media-item">
+              <div class="audio-container">
+                <audio controls>
+                  <source src="css/images/rickroll.mp3" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
+              <h3>Audio Recording</h3>
+              <p>Audio recording of a recent lecture</p>
+            </div>
+            <div class="media-item">
+              <div class="audio-container">
+                <audio controls>
+                  <source src="css/images/cotton.mp3" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
+              <h3>Audio Recording</h3>
+              <p>Heart Warming Story</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; 2024 My Professional Website. All rights reserved.</p>
+        <p class="footer-tech">Built with modern web technologies</p>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Videos swiper
+        const videoSwiper = new Swiper(".videos .card-wrapper", {
+          loop: true,
+          spaceBetween: 30,
+          autoplay: {
+            delay: 5000,
+            disableOnInteraction: true,
+            pauseOnMouseEnter: true,
+          },
+          pagination: {
+            el: ".videos .swiper-pagination",
+            clickable: true,
+            dynamicBullets: true,
+          },
+          navigation: {
+            nextEl: ".videos .swiper-button-next",
+            prevEl: ".videos .swiper-button-prev",
+          },
+          breakpoints: {
+            0: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 3,
+            },
+          },
+          watchSlidesProgress: true,
+          preventInteractionOnTransition: true,
+        });
+
+        // Images swiper - using separate selector for the second slider
+        const imagesSwiper = new Swiper(
+          ".main-content section:nth-child(2).swiper .card-wrapper",
+          {
+            loop: true,
+            spaceBetween: 30,
+            pagination: {
+              el: ".main-content section:nth-child(2) .swiper-pagination",
+              clickable: true,
+              dynamicBullets: true,
+            },
+            navigation: {
+              nextEl: ".main-content section:nth-child(2) .swiper-button-next",
+              prevEl: ".main-content section:nth-child(2) .swiper-button-prev",
+            },
+            breakpoints: {
+              0: {
+                slidesPerView: 1,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              1024: {
+                slidesPerView: 3,
+              },
+            },
+          }
+        );
+      });
+    </script>
+  </body>
+</html>
